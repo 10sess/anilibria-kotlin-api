@@ -2,7 +2,17 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     kotlin("jvm") version "1.7.10"
+    `maven-publish`
     application
+}
+
+publishing {
+    repositories {
+        mavenLocal()
+        maven {
+            url = uri("https://jitpack.io")
+        }
+    }
 }
 
 allprojects {

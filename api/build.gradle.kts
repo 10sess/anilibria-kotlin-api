@@ -1,6 +1,16 @@
 plugins {
     kotlin("jvm") version "1.7.10"
+    `maven-publish`
     application
+}
+
+publishing {
+    publications {
+        create<MavenPublication>("maven") {
+            artifactId = "anilibria-kotlin-api"
+            from(components["java"])
+        }
+    }
 }
 
 dependencies {
