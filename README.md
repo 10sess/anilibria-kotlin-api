@@ -7,7 +7,7 @@ AniLibriaApi — это API, который позволяет разработ�
 
 ```groovy
 dependencies {
-    implementation 'com.github.10sess:anilibria-api:1.0.0'
+    implementation 'com.github.10sess:anilibria-kotlin-api:1.0.0'
 }
 ```
 
