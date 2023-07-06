@@ -11,13 +11,14 @@ publishing {
         mavenLocal()
         maven {
             url = uri("https://jitpack.io")
+            version = project.version
         }
     }
 }
 
 allprojects {
     group = "me.tensess.api"
-    project.version = "1.0-SNAPSHOT"
+    project.version = "1.0.0"
 
     repositories {
         mavenCentral()
