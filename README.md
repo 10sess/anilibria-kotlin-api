@@ -21,9 +21,6 @@ api.aniLibriaApiService.getTitle(id = 9000)
 
 // Получение аниме по названию
 api.aniLibriaApiService.search(searches = "Клинок")
-    
-// Так же можно указывать несколько названий через запятую
-api.aniLibriaApiService.search(searches = "Клинок,бродяга")
 ```
 
 <h2>Расписание</h2>
